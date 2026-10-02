@@ -7,7 +7,7 @@ simple but powerful tools for converting gitbook pages to pdf.
 ## todolist
 
 - [ ] 加速pdf生成
-- [ ] 支持更多格式，比如mobi，equb
+- [ ] 支持更多格式，比如mobi，epub
 
 
 ## feature
@@ -32,7 +32,7 @@ simple but powerful tools for converting gitbook pages to pdf.
 
 ### 安装环境
 
-[weastprint安装](https://weasyprint.readthedocs.io/en/latest/install.html#linux)
+[weasyprint安装](https://weasyprint.readthedocs.io/en/latest/install.html#linux)
 ```python
 pip install -r requirements.txt
 ```

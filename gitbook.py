@@ -236,7 +236,7 @@ class Gitbook2PDF():
             print("done : ", url)
             self.content_list[index] = text
         except IndexError:
-            print('faild at : ', url, ' maybe content is empty?')
+            print('failed at : ', url, ' maybe content is empty?')
 
     def write_pdf(self, fname, html_text, css_text):
         tmphtml = weasyprint.HTML(string=html_text)
